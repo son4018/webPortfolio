@@ -25,14 +25,19 @@ import claudeIcon from './pics/claude.png'
 import phoneIcon from './pics/phone.png'
 import mee from './pics/mee.png'
 
+import Modal from './components/modal'
 
 import './css/App.css'
 
 import { Link } from "react-scroll";
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
+
+
 
 
 function App() {
+
+    const [isOpen, setIsOpen] = useState(false);
 
     useEffect(() => {
         const header = document.querySelector(".navbar-container");
@@ -400,12 +405,18 @@ return (
         </div>
         </a>
     </div>
-    <button className='convo-button'>Start A Conversation</button>
+                    {isOpen && <Modal closeModal={setIsOpen}/>}
+    <button className='convo-button' onClick={() => {setIsOpen(true);
+
+    }}>Start A Conversation</button>
+
+
 
     <div className="footer">
         <p>Crafter with passion and code.</p>
-
     </div>
+
+
 </div>
 </>
 )
