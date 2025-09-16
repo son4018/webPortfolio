@@ -1,0 +1,1 @@
+A personal website showcasing my skills in web design and development, featuring a clean layout and interactive elements.
