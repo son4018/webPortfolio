@@ -203,19 +203,22 @@ return (
                                     display: 'flex',
                                     flexDirection: 'row',
                                     gap: '20px'
-                                }}>
+                                }}><a href="https://github.com/son4018/webPortfolio" target="_blank">
                                     <FontAwesomeIcon icon={faGithub}
                                         style={{
                                             color: 'rgba(99, 102, 241, 1)',
                                             fontSize: '25px',
                                         }}
                                     />
+                                    </a>
+                                    <a href="https://vercel.com/iversons-projects-dc6ed32d/web-portfolio/BEWgMoH1JURpuoi5yhP5ZZpBHwts" target="_blank">
                                     <FontAwesomeIcon icon={faUpRightFromSquare}
                                         style={{
                                             color: 'rgba(245, 158, 11, 1)',
                                             fontSize: '22px',
                                         }}
                                     />
+                                    </a>
                             </div>
             </div>
         </div>
