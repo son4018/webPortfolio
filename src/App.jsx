@@ -25,7 +25,7 @@ import claudeIcon from './pics/claude.png'
 import phoneIcon from './pics/phone.png'
 import mee from './pics/mee.png'
 
-import Modal from './components/modal'
+import Modal from './components/Modal'
 
 import './css/App.css'
 
