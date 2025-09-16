@@ -211,7 +211,7 @@ return (
                                         }}
                                     />
                                     </a>
-                                    <a href="https://vercel.com/iversons-projects-dc6ed32d/web-portfolio/BEWgMoH1JURpuoi5yhP5ZZpBHwts" target="_blank">
+                                    <a href="https://web-portfolio-beta-cyan.vercel.app/" target="_blank">
                                     <FontAwesomeIcon icon={faUpRightFromSquare}
                                         style={{
                                             color: 'rgba(245, 158, 11, 1)',
